@@ -1,3 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="timeout_summary_never">永不關閉</string>
+    <string name="timeout_summary_15secs">15 秒</string>
+    <string name="timeout_summary_30secs">30 秒</string>
+    <string name="timeout_summary_1min">1 分鐘</string>
+    <string name="timeout_summary_2mins">2 分鐘</string>
+    <string name="timeout_summary_5mins">5 分鐘</string>
+    <string name="timeout_summary_10mins">10 分鐘</string>
+    <string name="timeout_summary_30mins">30 分鐘</string>
+    <string name="timeout_summary_1hour">1 小時</string>
+    <string name="timeout_summary_2hours">2 小時</string>
+    <string name="timeout_summary_4hours">4 小時</string>
+    <string name="timeout_summary_8hours">8 小時</string>
+    <string name="camera_timeout_title">相機存取逾時</string>
+    <string name="camera_timeout_description">未使用相機時，將於 <xliff:g id="timeout_description">%1$s</xliff:g> 後關閉相機存取權</string>
+    <string name="camera_timeout_description2">不會自動關閉相機存取權</string>
+    <string name="mic_timeout_title">麥克風存取逾時</string>
+    <string name="mic_timeout_description">未使用麥克風時，將於 <xliff:g id="timeout_description">%1$s</xliff:g> 後關閉麥克風存取權</string>
+    <string name="mic_timeout_description2">不會自動關閉麥克風存取權</string>
+    <string name="mic_unblock_dialog_when_locked_title">在鎖定畫面解除麥克風封鎖</string>
+    <string name="mic_unblock_dialog_when_locked_summary">允許在鎖定畫面顯示解除麥克風封鎖的對話方塊，無須解鎖</string>
 </resources>
